@@ -1,0 +1,64 @@
+body{
+    background-color: rgb(180, 84, 164);
+}
+
+.header{
+    display: flex; /*par default sera aligné horizentalement*/
+    justify-content: space-between; 
+    align-items: center;  
+}
+
+.logo{
+    display: flex;
+    position: relative; /*le repère*/
+}
+.logo-title{
+    font-family: "segoe Script", sans-serif; /*(la police , la police alternative si on a pas acces a la premiere police par ex si on a pas de cnx)*/
+    color: #518FD8;
+    font-size: 20px;
+    position: absolute;
+    left: 1.25rem;
+    top: 0.5rem;
+    width: max-content; /*mat7bes taysali contenu matb9ash gher f le cadre dial parent li huwa div parent logo*/
+
+}
+span{
+    color: #F9F9F9 ;
+}
+
+.search-bar{
+    display: flex;
+}
+#search1{
+    width: 30rem;
+    height: 49px;
+    border-radius: 0.5rem 0rem 0rem 0.5rem;
+    border-width: 1px;
+    border-color: #518FD8;
+}
+
+.search-button{
+    display: flex;
+    position: relative;
+}
+.search-icon{
+    position: absolute;
+    left: 0.75rem;
+    top: 0.5rem;
+}
+
+.buttons{
+    display: flex;
+    gap: 1rem;
+}
+.cart{
+    position: relative;
+}
+.cart-icon{
+    position: absolute;
+    top: 0.5rem;
+    left: 1rem;
+}
+.cart-txt{
+    text-align: center;
+}
