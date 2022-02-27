@@ -1,5 +1,5 @@
 body{
-    background-color: rgb(180, 84, 164);
+    background-color: rgb(194, 65, 172);
 }
 
 .header{
@@ -31,7 +31,7 @@ span{
 }
 #search1{
     width: 30rem;
-    height: 49px;
+    height: 48px;
     border-radius: 0.5rem 0rem 0rem 0.5rem;
     border-width: 1px;
     border-color: #518FD8;
@@ -56,9 +56,40 @@ span{
 }
 .cart-icon{
     position: absolute;
-    top: 0.5rem;
+    top: 0.4rem;
     left: 1rem;
 }
 .cart-txt{
     text-align: center;
+}
+#Buyicon{
+    top: 0rem;
+    left: 0.7rem;
+}
+.main{
+    display: flex;
+    justify-content: space-between;
+}
+.filter{
+    flex-grow: 1;
+    width:  50rem;
+}
+.banner{
+    flex-grow: 2;
+    position: relative;
+    background-color: black;
+    
+}
+.banner-img{
+    background-color: aqua;
+    position: absolute;
+}
+
+#img6666{
+}
+
+.cadre{
+    position: absolute;
+    top: 0.6rem;
+    left: 0.6rem;
 }
