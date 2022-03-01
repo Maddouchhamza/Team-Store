@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    /* background-color: chartreuse; */
 }
 
 .header{
@@ -81,7 +82,7 @@ span{
     display: flex;
     flex-direction: column;
     flex-grow:5;
-    gap: 1rem;
+    gap: 20px;
 }
 .banner-img{
     width: fit-content;
@@ -89,10 +90,10 @@ span{
     position: relative;
 }
 #img6666{
-    width: 1100px;
+    width: 1140px;
 }
 #cadreimg{
-    width: 1075px;
+    width: 1115px;
 }
 .cadre{
     position: absolute;
@@ -113,8 +114,11 @@ span{
 }
 
 .best-selling{
-
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
 }
+
 .section{
     display: flex;
     gap: 20px;
@@ -127,5 +131,51 @@ span{
 .ligne-section{
 }
 #Line11{
-    width: 975px;
+    width: 1014px;
+}
+
+.allproducts{ 
+    width: 30cm;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.product{
+    width: fit-content;
+    position: relative;
+    border-radius: 0.5rem 0.5rem 0.5rem 0.5rem;
+}
+.rectangle{
+    position:absolute;
+    right: 10px;
+    left: -4px;
+    top: 162px;
+    width: fit-content;
+}
+.namemontre{
+    font-family: "Roboto", sans-serif;
+    position: absolute;
+    left: 12px;
+    top: 7px;
+    font-size: 12px;
+}
+.prix{
+    position: absolute;
+    left: 12px;
+    font-family: "Roboto", sans-serif;
+    top: 35px;
+    font-size: 12px;
+    color: #4F4F4F;
+}
+.etoile{
+    position: absolute;
+    right: 35px;
+    top: 5.5px;
+}
+button{
+    font-family: "Roboto", sans-serif;
+    color: #414040;
+    position: absolute;
+    right: 23px;
+    top: 31px;
 }
