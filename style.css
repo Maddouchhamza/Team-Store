@@ -2,6 +2,7 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
+    /* background-color: chartreuse; */
 }
 
 .header{
@@ -212,4 +213,24 @@ button{
 #hand2222{
     width: 445px;
     top: -7.9rem;
+}
+.rectangle2{
+    position: absolute;
+    top: 0.55rem;
+    left: 9px;
+}
+.txt1-hands{
+    position: absolute;
+    top: 7.8rem;
+    left: 2.5rem;
+    color: #ffffff;
+    font-family: "Roboto", sans-serif;
+}
+.txt2-hands{
+    position: absolute;
+    top: 10.5rem;
+    left: 3.3rem;
+    color: #ffffff;
+    font-family: "segoe Script", sans-serif;
+    font-size: 20px;
 }
