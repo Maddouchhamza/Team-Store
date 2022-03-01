@@ -2,7 +2,6 @@ body{
     display: flex;
     flex-direction: column;
     gap: 1rem;
-    /* background-color: chartreuse; */
 }
 
 .header{
@@ -82,7 +81,7 @@ span{
     display: flex;
     flex-direction: column;
     flex-grow:5;
-    gap: 20px;
+    gap: 25px;
 }
 .banner-img{
     width: fit-content;
@@ -178,4 +177,39 @@ button{
     position: absolute;
     right: 23px;
     top: 31px;
+}
+
+.two{
+    display: flex;
+    gap: 18px;  
+    align-items: center; 
+}
+.Most-searched{
+    display: flex;
+    flex-direction: column;
+    gap: 31px;
+    width: fit-content;
+}
+#Line22{
+    width: 520px;
+}
+.allproducts2{
+    width: 42.2rem;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+.banner2{
+    position: relative;
+    background-color: red;
+}
+.hands{
+    position: absolute;
+    width: fit-content;
+    width: 445px;
+    top: -7.9rem;
+}
+#hand2222{
+    width: 445px;
+    top: -7.9rem;
 }
