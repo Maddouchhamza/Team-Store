@@ -74,10 +74,6 @@ span{
     justify-content: space-between;
 }
 
-.filters{
-    flex-grow: 3;
-}
-
 .banner{
     display: flex;
     flex-direction: column;
@@ -172,7 +168,7 @@ span{
     right: 35px;
     top: 5.5px;
 }
-button{
+.button11{
     font-family: "Roboto", sans-serif;
     color: #414040;
     position: absolute;
@@ -202,7 +198,7 @@ button{
 }
 .banner2{
     position: relative;
-    background-color: red;
+    /* background-color: red; */
 }
 .hands{
     position: absolute;
@@ -233,4 +229,54 @@ button{
     color: #ffffff;
     font-family: "segoe Script", sans-serif;
     font-size: 20px;
+}
+
+.filters{
+    flex-grow: 3;
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: space-around;
+}
+.filter-section{
+    width: fit-content;
+    background-color: #E9E9E9;
+}
+p{
+    color: #4F4F4F;
+    font-family: "Roboto", sans-serif;
+}
+label{
+    font-family: "Roboto", sans-serif;
+    font-size: 13px;
+    color: #4F4F4F;    
+}
+input{
+    color: #4F4F4F;
+}
+#quantity{
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    width: 3rem;
+    height: 1.8rem;
+    border-width: 1px;
+    border-color: #8d8d8d;
+}
+::placeholder{
+    font-family: "Roboto", sans-serif;
+    color: #bdbdbd;
+}
+#button22{
+    font-family: "Roboto", sans-serif;
+    border-radius: 0.4rem 0.4rem 0.4rem 0.4rem;
+    width: 2.1rem;
+    height: 2.1rem;
+    border-width: 1px;
+    border-color: #ffffff;
+    background-color: white;
+    color: #4F4F4F;
+}
+#couleur{
+    border-radius: 0.2rem 0.2rem 0.2rem 0.2rem;
+    width: 1.8rem;
+    height: 1.8rem;
+    border-width: 0.5px;
 }
